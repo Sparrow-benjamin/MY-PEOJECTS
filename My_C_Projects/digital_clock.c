@@ -3,10 +3,10 @@
 #include <stdio.h>
 #include <time.h>
 // driver code
-int main()
+int main(void)
 {
 time_t s, val = 1;
-struct tm* current_time;
+struct tm *current_time;
 // time in seconds
 s = time(NULL);
 // to get current time
