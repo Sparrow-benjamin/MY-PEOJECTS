@@ -11,7 +11,8 @@ struct tm *current_time;
 s = time(NULL);
 /*to get current time*/
 current_time = localtime(&s);
-/*print time in minutes
+/*
+*print time in minutes
 *hours and seconds
 */
 printf("%02d:%02d:%02d",
