@@ -1,4 +1,4 @@
-// C implementation of digital clock
+/*C implementation of digital clock*/
 
 #include <stdio.h>
 #include <time.h>
