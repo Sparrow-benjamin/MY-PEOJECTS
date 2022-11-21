@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <time.h>
-// driver code
+/*driver code*/
 int main(void)
 {
 time_t s, val = 1;
