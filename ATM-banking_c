@@ -10,7 +10,6 @@ int main()
     int pin=1234,option,enteredpin,count=0,amount=1;
     float balance = 5000;
     int continueTransaction = 1;
-    
     time_t now;
     time(&now);
     printf("\n");
@@ -66,7 +65,6 @@ int main()
             case 3:
             printf("\n\t\t Your balance is Ksh.%.2f.", balance);
             break;
-            
             default:
             //Beep(610,500);
             printf("\n\t\t Invalid Option!! ");
@@ -76,5 +74,4 @@ int main()
         }
     
     return (0);
-    
 }
