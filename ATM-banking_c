@@ -4,7 +4,7 @@
 #include<time.h>
 #include<stdlib.h>
 
-int main()
+int main(void)
 {
 //system("color 3F");
 int pin=1234,option,enteredpin,count=0,amount=1;
@@ -16,10 +16,12 @@ printf("\n");
 printf("\t\t\t\t\t     %s", ctime(&now));
 printf("\n\t\t\t==============*Welcome to Benjabank ATM*==============");
 printf("\n");
-while(pin != enteredpin){
+while(pin != enteredpin)
+{
 printf("\nPlease enter your pin: ");
 scanf("%d", &enteredpin);
-if(enteredpin != pin ){
+if(enteredpin != pin )
+{
 //Beep(610, 500);
 printf("Invalid pin!!");
 }
