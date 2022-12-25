@@ -1,10 +1,9 @@
-// Online C compiler to run C program online
 #include <stdio.h>
-//#include <conio.h>
+/*#include <conio.h>*/
 #include <stdlib.h>
 
 
-int main() {
+int main(void) {
 printf("\n");
 printf("\n");
 printf("\t\t\t======*VACCINE REGISTRATION PORTAL\n");
