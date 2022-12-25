@@ -66,10 +66,10 @@ int main() {
             break;
         }
         case 2:
-        {
-            printf("\t\t\tSearch Your Profile\n");
-            break;
-        }
+            {
+                printf("\t\t\tSearch Your Profile\n");
+                break;
+            }
         default:
         {
             printf("Enter valid choice!!!\n");
