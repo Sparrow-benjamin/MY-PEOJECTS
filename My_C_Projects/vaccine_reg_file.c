@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 
-int main(void) {
+int main(void)
+{
 printf("\n");
 printf("\n");
 printf("\t\t\t======*VACCINE REGISTRATION PORTAL\n");
