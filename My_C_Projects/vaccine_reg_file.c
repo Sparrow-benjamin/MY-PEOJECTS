@@ -22,7 +22,7 @@ printf("\n");
 printf("Enter your choice below to continue:\n");
 scanf("%d", &choice);
 printf("\n");
-switch(choice)
+switch (choice)
 {
 case 1:
 {
