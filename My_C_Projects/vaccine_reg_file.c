@@ -53,10 +53,10 @@ int main() {
 	      break;
 	    }
 	  case 3:
-	    {
-	      printf("\t\t\t3)Others \n");
-	      break;
-	    }
+			{
+				printf("\t\t\t3)Others \n");
+	                        break;
+	                }
 	  default:
 	    {
 	      printf("Enter valid choice!!!\n");
