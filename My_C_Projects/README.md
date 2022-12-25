@@ -1,1 +1,1 @@
-Vaccine registration platform
+Another vaccine registration tool
