@@ -1,0 +1,212 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("\n");
+    printf("======*WELCOME TO BENJA'S FOODS*======\n");
+    printf("---------------------------------------\n");
+    printf("\n");
+    printf("\n");
+    
+    int option;
+    int choice;
+    int method;
+    float mpesanum;
+    int sendchoice;
+    int bankchoice;
+    float acc;
+    int banksendchoice;
+    float bank1pin;
+    float bank1amount;
+    int contbank1trans;
+    //correcteqt = 1234;
+    printf("OPTIONS\n");
+    
+    printf("\n");
+    printf("1)Visit Menu\n");
+    printf("2)Place Order\n");
+    printf("\n");
+    printf("Enter your option\n");
+    scanf("%d", &option);
+    printf("\n");
+    
+    switch (option)
+    {
+        case 1:
+        {
+            printf("MENU\n");
+            printf("\n");
+            printf("1)Food1\n");
+            {
+                printf("\t\t1)Order\n");
+                printf("\t\t2)Check price\n");
+                printf("\n");
+                printf("\tEnter your choice\n");
+                scanf("%d", &choice);
+                
+                switch (choice)
+                {
+                    case 1:
+                    {
+                        printf("payment methods\n");
+                        printf("\n");
+                        printf("1)cash\n");
+                        printf("2)mpesa\n");
+                        printf("3)bank account\n");
+                        printf("4)credit card\n");
+                        printf("\n");
+                        printf("Enter your payment method\n");
+                        scanf("%d", &method);
+                        
+                        switch (method)
+                        {
+                            case 1:
+                            {
+                                printf("Your order will be delivered within 30 minutes. Thank you");
+                            }
+                            break;
+                            
+                            case 2:
+                            {
+                                printf("\n");
+                                printf("Enter your m-pesa number:\n ");
+                                scanf("%f", &mpesanum);
+                                printf("1)S(send)\n");
+                                printf("2)X(cancel)\n");
+                                printf("\n");
+                                printf("Enter '1' below to request m-pesa prompt\n");
+                                scanf("%d", &sendchoice);
+                                
+                                switch (sendchoice)
+                                {
+                                    case 1:
+                                    {
+                                        printf("accept prompt message on your phone\n");
+                                    }
+                                    
+                                    break;
+                                    
+                                    case 2:
+                                    {
+                                        printf("cancelled!\n");
+                                    }
+                                }
+                                
+                                
+                            }
+                            
+                            break;
+                            
+                            case 3:
+                            {
+                                printf("Choose bank\n");
+                                printf("\n");
+                                printf("1)Equity bank\n");
+                                printf("2)Absa bank\n");
+                                printf("3)chess bank\n");
+                                printf("4)kcb bank\n");
+                                printf("\n");
+                                printf("1)Enter your choice\n");
+                                scanf("%d", &bankchoice);
+                                
+                                switch (bankchoice)
+                                {
+                                    case 1:
+                                    {
+                                        printf("Enter your account number\n");
+                                    }    
+                                        scanf("%f", &acc);
+                                        printf("1)S(send)\n");
+                                printf("2)X(cancel)\n");
+                                printf("\n");
+                                printf("Enter '1' below to send\n");
+                                scanf("%d", &banksendchoice);
+                                
+                                switch (banksendchoice)
+                                {
+                                    case 1:
+                                    {
+                                        printf("Enter bank account pin:\n");
+                                        scanf("%f", &bank1pin);
+                                        printf("\n");
+                                        printf("Enter amount:\n");
+                                        scanf("%f", &bank1amount);
+                                        printf("\n");
+                                        printf("Press 1 to continue with transaction");
+                                        printf("\n");
+                                        printf("1)Send\n");
+                                        printf("2)Cancel\n");
+                                        scanf("%d", &contbank1trans);
+                                        
+                                        switch (contbank1trans)
+                                        {
+                                            case 1:
+                                            {
+                                                printf("Transaction successfully done. Thank you.\n");
+                                                break;
+                                                
+                                                case 2:
+                                                {
+                                                    printf("Cancelled!!\n");
+                                                }
+                                                break;
+                                                
+                                                
+                                                
+                                            }
+                                        }
+                                        
+                                    }
+                                    
+                                    break;
+                                    
+                                    case 2:
+                                    {
+                                        printf("cancelled!\n");
+                                    }
+                                        
+                                    }
+                                }
+                            }
+                            
+                        }
+                        printf("\n");
+                        
+                        
+                    }
+                }
+                printf("\n");
+            }
+            
+            
+            printf("2)Food2\n");
+            {
+                printf("\t\t1)Order\n");
+                printf("\t\t2)Check price\n");
+            }
+            
+            printf("3)Food3\n");
+            {
+                printf("\t\t1)Order\n");
+                printf("\t\t2)Check price\n");
+            }
+            
+            printf("4)Food4\n");
+            {
+                printf("\t\t1)Order\n");
+                printf("\t\t2)Check price\n");
+            }
+            
+            printf("Food6\n");
+            {
+                printf("\t\t1)Order\n");
+                printf("\t\t2)Check price\n");
+            }
+            
+            printf("\n");
+        }
+    }
+    
+    return 0;
+}
